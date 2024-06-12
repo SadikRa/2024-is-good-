@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px; /* Adjust width as needed */
+            background-color: antiquewhite;
+            padding: 30px;
+        }
+        .first-input {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: crimson;
+            height: 50px; /* Adjust height as needed */
+        }
+        .btn-one {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="first">
+            <div class="first-input">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="first-input">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="first-input">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="btn">
+                <div class="first-input btn-one">
+                    <input type="button" value="Submit">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
