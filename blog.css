@@ -1,0 +1,11 @@
+body {
+    margin: 0 90px;
+}
+
+nav > li  {
+    display: inline;
+    margin-right: 20px;
+}
+.footer {
+    text-align: center;
+}
